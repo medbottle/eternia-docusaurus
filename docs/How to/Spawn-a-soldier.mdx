@@ -1,0 +1,107 @@
+---
+pagination_next: null
+pagination_prev: null
+---
+
+## 1. Receive Influence and Money
+
+Before beginning:
+
+- Take the coins and influence from the leader by debugging.
+- For logging purposes, **do not have the leader drop the money**.
+    - Ask them to have the money in hand.
+    - Debug the leader and remove the coins directly.
+    - This ensures both the coin removal and influence deduction appear in our staff log.
+    - Be extremely careful when entering values, especially with large numbers and extra zeros.
+
+## 2. Record the Spawn
+
+Add the appropriate information to `ability_tracker`, including:
+
+- Year
+- Leader name
+- Soldier name
+- Progress (`X/3`)
+- Date
+- Any other required information
+
+Example: [May 05 2026, 13:58] Spawn a soldier - Atheleon (3/3) by Percival S. Anwar - Gretchen Hayme
+
+---
+
+## 3. Setting the spawn-a-soldier slot
+
+- Reach out to the spawn-a-soldier slot. (This can be either an existing character or a new one)
+- Set up the player according to the current policy. (this is based on May - 2026)
+
+If the player is below 210:
+
+- Update `activity_points`.
+- Update `lifetime_activity`.
+
+Add 7000 to each.
+
+---
+
+## 4. Classes
+
+### Medical Class
+
+- Medical is unlocked through the **EDIT** menu by toggling the Medical Token option.
+
+### Faith
+
+- Costs **5 RPP**, hand it out through **Reward Spell**.
+
+### Sorcery
+
+- Applies a permanent **-5** penalty, hand it out through **Reward Spell** and utilize edit to make them a custom, fluffed sorcerer's seal.
+
+---
+
+## 5. Create the Weapon
+
+:::warning
+Ensure you are doing this in the breakroom!
+:::
+
+1. Open **SPAWN ANYTHING**.
+2. Search for **EXALTED STAFF**. (This is arcanium staff, but they may request a sword as well)
+3. Spawn the weapon.
+4. Open the Edit menu, make the following changes:
+   - Bind it to the player by name.
+   - Add the **soulbound** tag.
+   - Add the **UNIQUE** tag.
+   - Change the icon.
+   - Change the description if any requested.
+   - Change the name if any requested.
+
+All custom details should be provided by the player.
+
+:::tip
+
+You can also add **Created by** and **Created Year** if you wish to give the weapon a little bit more of lore.
+
+:::
+
+---
+
+## 6. Double-check at the end
+
+Before concluding the ticket, confirm that everything is correct.
+
+Request player to:
+
+- Check their `/activity` EXP
+- Check if they have been deducted correctly from **FAITH** or **SORCERY**
+- Check their weapon if it's bound, getting EXP correctly and/or right description/name
+
+---
+
+:::warning
+
+When taking a spaw-a-soldier ticket, always remember that the 10-year cooldown is based on the **first spawn** of the settlement during their cooldown, **not the most recent**.
+
+So, if I spawned a soldier on January 1st, even if I do not use all my slots, my cooldown resets on March 12th.
+
+:::

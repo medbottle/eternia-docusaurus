@@ -1,0 +1,31 @@
+---
+pagination_next: null
+pagination_prev: null
+---
+
+# Changing a Player's Guild Rank
+
+1. Debug the player whose rank needs to be changed.
+2. Locate the `guild` list variable.
+3. Open the variable and find the appropriate guild.
+   - They may be part of multiple factions, so make sure you pick the right one.
+4. Go to the `members` list variable.
+5. Find the player you wish to change the rank within the list.
+   - Members are listed by their ckey.
+6. Open their var, find the `rank` value.
+7. Modify the rank to the desired value.
+
+## Rank Values
+
+Guild ranks range from **1** to **7**.
+
+- `1` — Lowest rank
+- `7` — Highest rank (LEADER)
+
+:::warning
+
+Always make sure that the requested rank change is something decided preferbly ICly or OOCLY depending on the situation.
+
+If the player belongs to multiple guilds, double-check that you are editing the correct entry.
+
+:::
