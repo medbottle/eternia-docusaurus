@@ -52,13 +52,12 @@ const config: Config = {
         alt: 'Eternia logo',
         src: 'img/logo.png',
       },
-
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-}
 };
 
 export default config;
