@@ -13,7 +13,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://eternia-docusaurus.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -44,6 +44,13 @@ const config: Config = {
   ],
 
   themeConfig: {
+
+    metadata: [
+      {
+        name: 'algolia-site-verification',
+        content: '55E7C6AAFDF06AAF',
+      },
+    ],
 
     algolia: {
       // The application ID provided by Algolia
