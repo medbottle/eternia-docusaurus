@@ -17,6 +17,7 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  favicon: 'img/logo.png', 
 
   onBrokenLinks: 'throw',
 
