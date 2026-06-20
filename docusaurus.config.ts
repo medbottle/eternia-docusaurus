@@ -36,6 +36,8 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true, // optional
         },
         theme: {
           customCss: './src/css/custom.css',
