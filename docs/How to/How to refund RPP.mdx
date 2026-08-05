@@ -1,0 +1,21 @@
+---
+pagination_next: null
+pagination_prev: null
+---
+
+When returning spent roleplay points to a player, **do not** use **Reward RPP**.
+
+## Refunding RPP
+
+Use **Spend RPP** with a **minus sign** before the number.
+
+Example: to refund 5 RPP, enter **`-5`**.
+
+## After Handing Out Signatures
+
+When awarding a signature via **Reward Spell**, also use **Spend RPP** for the noted cost. Then:
+
+1. Teleport to the player and open the debug menu.
+2. Go to **spells** and open the newly awarded spell.
+3. Set `can_refund` to **0**.
+4. If the signature is an aura, also set `can_refund` to **0** on the associated tree's **base aura** — this keeps the aura at 15 total RPP while 10 still counts toward their spell tree for intermediates.
