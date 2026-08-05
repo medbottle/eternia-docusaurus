@@ -1,11 +1,20 @@
-We have a few cosmetic spells that can be used to customize a player's sprite and how it is seen. Below will be some examples as to how set them up properly and adjust to a player's application and/or choice.
+---
+pagination_next: null
+pagination_prev: null
+---
 
-# Opacity (alpha_transform)
+We have a few cosmetic spells that can be used to customize a player's sprite and how it is seen. Below are examples of how to set them up properly and adjust to a player's application and/or choice.
 
-Often requested by ghosts, spectres, spirit-like entities and so on.
+## Opacity
 
-- give them cosmetic toggle buff
-- debug, go into spells, choose the cosmetic toggle buff
-- alpha_transform set to somewhere between 120-155 (can be higher or lower)
+Often requested by ghosts, spectres, spirit-like entities, and similar characters.
 
-Always prioritize visual clarity!
+1. Give them the **CosmeticBuff** spell (Cosmetic Toggle Buff).
+2. Debug the character, go into **spells**, and open **Cosmetic Toggle Buff**.
+3. Set `can_refund` to **0** and `can_rebirth_refund` to **0**.
+4. Set `alpha_transform` to the desired value:
+   - **255** — completely invisible (hardly ever given if at all)
+   - **0** — completely visible
+   - **100–155** — ghost-like; start around **120–155** and adjust as needed
+
+Always prioritize visual clarity.
