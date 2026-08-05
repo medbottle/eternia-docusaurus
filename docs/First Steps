@@ -1,0 +1,58 @@
+---
+pagination_next: null
+pagination_prev: null
+sidebar_position: 2
+---
+
+Essential reading for new and returning staff. Always have this in mind at ALL TIMES.
+
+---
+
+## Golden Rules
+
+- **You are still a player** when your character is in a scene. You cannot rule on your own scenes.
+- **Consult this documentation first** before making a ruling. Consistency matters more than speed.
+- **Deescalate.** Avoid arguing with players, even when provoked. Lighthearted jokes are fine.
+- **Protect sensitive OOC information.** What you see as staff stays private when it should.
+- **Do not ghost private scenes.** Player logs are for head admin investigations only.
+- **No permission abuse.** Do not spawn items or teleport players unless it is admin business.
+- **Unsure????** ASK IN STAFF CHAT!!!!
+
+If something is not covered here, discuss with the team, then suggest adding it to this docs after a decision was made.
+
+Ideally, you are meant to learn what can be done and what cannot be done. This documentation will always be available to be chcked and is based upon discussion and mutual agreement of the team.
+
+---
+
+## Tickets
+
+- Only take a ticket if you intend to handle it **start to finish**.
+- If a ticket names a specific admin, leave it **untaken** so they see it, you may also ping the admin on Discord.
+- Before closing, ask if the player needs anything else.
+
+### Commands
+
+- `/tickets` shows all tickets.
+- `/jointicket [NUMBER]` opens a ticket by the number. You cannot do this on a tikeck you've taken.
+
+---
+
+## Before you do anything in game
+
+| Do | Why |
+| --- | --- |
+| Prefer **Edit** over **Debug** | Safer, cleaner changes |
+| Work in the **breakroom** when creating or editing items | Prevents item duplication (`Teleport NPC` → `.Breakroom`) |
+| Hit the **reload circle** in Spawn Anything | Ensures fresh spawns |
+| **Duplicate** spawnables before taking them | Never take the original from the breakroom |
+| Remove coins via **debug** (not dropped items) | Shows correctly in staff logs |
+
+---
+
+## Common Mistakes
+
+### RPP refunds
+
+**NEVER** use Reward RPP to refund spent points. Use **Spend RPP** with a minus sign:
+
+- Refund 5 RPP -> enter **`-5`**
