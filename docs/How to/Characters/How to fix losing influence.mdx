@@ -1,0 +1,12 @@
+---
+pagination_next: null
+pagination_prev: null
+---
+
+If a player keeps losing influence unexpectedly:
+
+1. Debug the player and open variables.
+2. Check their `guild_faction` value.
+3. Find `faction_name` and set it to a **string** that matches `guild_faction` exactly.
+
+This mismatch is a common cause of influence drain.
