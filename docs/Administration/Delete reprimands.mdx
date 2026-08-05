@@ -1,0 +1,15 @@
+---
+pagination_next: null
+pagination_prev: null
+sidebar_position: 4
+---
+
+:::warning
+**Head Admin only.** This only deletes the **first** reprimand in the player's reprimands list.
+:::
+
+1. **Varedit** -> set `max_saved_reprimands` to **0**.
+2. **Varedit** -> set `reprimand_expire_time` to **0**.
+3. Call **GiveReprimand** on the character with no arguments.
+
+For general reprimand and ban policy, see the [Reprimands and Bans Bible](https://hackmd.io/@W-0Gbc7jSk-E0rjQlFUh3g/ByxD2tjJMl).
